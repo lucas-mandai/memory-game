@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+  color: white;
+}
+
+.btn-reset {
+  font-weight: bold;
+  background-color: #4cb34c;
+  color: white;
+  padding: 0.3rem 1.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 1px 1px rgb(0,0,0,0.1);
+}
